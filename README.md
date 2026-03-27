@@ -30,7 +30,6 @@ After each key press:
 ## ⚙️ Tech Stack
 
 - **Nuxt 3**
-- **Vue 3 (Composition API)**
 - **TailwindCSS**
 
 ## 📄 License
