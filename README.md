@@ -1,75 +1,48 @@
-# Nuxt Minimal Starter
+# 🔐 Enigma Simulator
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Modern web-based simulator of the Enigma cipher machine built with Nuxt + Vue + Tailwind.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ✨ Features
+
+- Realistic **3-rotor Enigma logic** (I, II, III)
+- **Reflectors B / C**
+- Configurable:
+    - Rotor order (no duplicates)
+    - Ring settings (Ringstellung)
+    - Start positions (Grundstellung)
+- Real-time **rotor stepping (double-step included)**
+- **Randomize** button
+- Clean modern UI with rotor drums
+
+---
+
+## 🧠 How it works
+
+Each character goes through:
+
+1. Right → Left rotors (forward)
+2. Reflector
+3. Left → Right rotors (backward)
+
+After each key press:
+- Right rotor always steps
+- Middle rotor steps on notch (double-step behavior)
+- Left rotor steps conditionally
+
+---
+
+## ⚙️ Tech Stack
+
+- **Nuxt 3**
+- **Vue 3 (Composition API)**
+- **TailwindCSS**
+
+---
+
+## 🚀 Run locally
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
