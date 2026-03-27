@@ -2,8 +2,6 @@
 
 Modern web-based simulator of the Enigma cipher machine built with Nuxt + Vue + Tailwind.
 
----
-
 ## ✨ Features
 
 - Realistic **3-rotor Enigma logic** (I, II, III)
@@ -15,8 +13,6 @@ Modern web-based simulator of the Enigma cipher machine built with Nuxt + Vue + 
 - Real-time **rotor stepping (double-step included)**
 - **Randomize** button
 - Clean modern UI with rotor drums
-
----
 
 ## 🧠 How it works
 
@@ -31,18 +27,12 @@ After each key press:
 - Middle rotor steps on notch (double-step behavior)
 - Left rotor steps conditionally
 
----
-
 ## ⚙️ Tech Stack
 
 - **Nuxt 3**
 - **Vue 3 (Composition API)**
 - **TailwindCSS**
 
----
+## 📄 License
 
-## 🚀 Run locally
-
-```bash
-npm install
-npm run dev
+MIT License
